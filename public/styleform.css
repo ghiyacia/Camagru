@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.input-container {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: #375a7f;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid #375a7f;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #375a7f;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+#form-contain {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2); */
+  width: 32%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+#lien_res {
+  color: white;
+  background-color: #375a7f;
+}
+
+#valider_incription {
+  background-color: #375a7f;
+  width: 100%;
+  margin-top: 1em;
+}
+
+h2 {
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  #form-contain {
+    width: 31%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  #form-contain {
+    width: 64%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #form-contain {
+    width: 80%;
+  }
+}
+
+
+
+/* ///////////profil/////////// */
+#div_generale {
+  margin: auto;
+  margin-top: 11%;
+
+}
+
+.card {
+  margin-top: 11%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2);
+  width: 35em;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  color: white;
+}
+
+
+#mon_bouton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+#profil_lien {
+  text-decoration: none;
+  color: white;
+}
